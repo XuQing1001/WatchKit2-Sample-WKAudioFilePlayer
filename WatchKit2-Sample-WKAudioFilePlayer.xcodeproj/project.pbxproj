@@ -19,6 +19,12 @@
 		0D33D46F1B526763001ACDB5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33D46E1B526763001ACDB5 /* InterfaceController.swift */; };
 		0D33D4711B526763001ACDB5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D33D4701B526763001ACDB5 /* ExtensionDelegate.swift */; };
 		0D33D4731B526763001ACDB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D33D4721B526763001ACDB5 /* Assets.xcassets */; };
+		0D33D4871B528C22001ACDB5 /* hen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D33D4831B528C22001ACDB5 /* hen.mp3 */; };
+		0D33D4881B528C22001ACDB5 /* hen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D33D4831B528C22001ACDB5 /* hen.mp3 */; };
+		0D33D4891B528C22001ACDB5 /* hen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D33D4831B528C22001ACDB5 /* hen.mp3 */; };
+		0D33D48A1B528C22001ACDB5 /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D33D4841B528C22001ACDB5 /* cow.mp3 */; };
+		0D33D48B1B528C22001ACDB5 /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D33D4841B528C22001ACDB5 /* cow.mp3 */; };
+		0D33D48C1B528C22001ACDB5 /* cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D33D4841B528C22001ACDB5 /* cow.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +86,8 @@
 		0D33D4701B526763001ACDB5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		0D33D4721B526763001ACDB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D33D4741B526763001ACDB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D33D4831B528C22001ACDB5 /* hen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hen.mp3; sourceTree = "<group>"; };
+		0D33D4841B528C22001ACDB5 /* cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cow.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,7 @@
 		0D33D45E1B526763001ACDB5 /* WatchKit2-Sample-WKAudioFilePlayer WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				0D33D4821B528C15001ACDB5 /* music */,
 				0D33D45F1B526763001ACDB5 /* Interface.storyboard */,
 				0D33D4621B526763001ACDB5 /* Assets.xcassets */,
 				0D33D4641B526763001ACDB5 /* Info.plist */,
@@ -152,6 +161,15 @@
 				0D33D4741B526763001ACDB5 /* Info.plist */,
 			);
 			path = "WatchKit2-Sample-WKAudioFilePlayer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0D33D4821B528C15001ACDB5 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				0D33D4841B528C22001ACDB5 /* cow.mp3 */,
+				0D33D4831B528C22001ACDB5 /* hen.mp3 */,
+			);
+			name = music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,9 +273,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D33D4871B528C22001ACDB5 /* hen.mp3 in Resources */,
 				0D33D4561B526763001ACDB5 /* LaunchScreen.storyboard in Resources */,
 				0D33D4531B526763001ACDB5 /* Assets.xcassets in Resources */,
 				0D33D4511B526763001ACDB5 /* Main.storyboard in Resources */,
+				0D33D48A1B528C22001ACDB5 /* cow.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +285,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D33D4881B528C22001ACDB5 /* hen.mp3 in Resources */,
 				0D33D4631B526763001ACDB5 /* Assets.xcassets in Resources */,
+				0D33D48B1B528C22001ACDB5 /* cow.mp3 in Resources */,
 				0D33D4611B526763001ACDB5 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D33D48C1B528C22001ACDB5 /* cow.mp3 in Resources */,
+				0D33D4891B528C22001ACDB5 /* hen.mp3 in Resources */,
 				0D33D4731B526763001ACDB5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

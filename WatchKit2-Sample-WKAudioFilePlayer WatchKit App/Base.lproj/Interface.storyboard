@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13E28" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8152.3" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8077.2"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKit2_Sample_WKAudioFilePlayer_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="22" alignment="left" text=" " id="jfo-vO-os6"/>
+                        <separator alignment="left" id="54R-yt-lXG"/>
+                        <button width="1" alignment="left" title="播放单个音频文件" id="4y7-oi-aCk">
+                            <connections>
+                                <action selector="playSingleFile" destination="AgC-eL-Hgc" id="SQv-tq-y66"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="J6a-mC-Zce"/>
+                        <button width="1" alignment="left" title="连续播放多个音频" id="WiW-AU-WY6">
+                            <connections>
+                                <action selector="playMutiFiles" destination="AgC-eL-Hgc" id="iFJ-MY-q8r"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="ERe-Bz-uHH"/>
+                    </items>
+                    <connections>
+                        <outlet property="label" destination="jfo-vO-os6" id="BFk-E9-g9n"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="305" y="388.5"/>
         </scene>
     </scenes>
 </document>
